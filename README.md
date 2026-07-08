@@ -44,7 +44,7 @@ to monitor construction resources and predict the next **7 days of concrete dema
 
 ### Libraries
 
-- Pandas
+- Panda
 - NumPy
 - Scikit-Learn
 - XGBoost
