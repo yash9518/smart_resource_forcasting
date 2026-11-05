@@ -1,0 +1,29 @@
+series,horizon,model,MAPE,bias,months,valid_MAPE
+cement,1,"Average of ETS, SARIMA and growth rule",3.29,-0.87,42,8.75
+cement,1,Holt-Winters (ETS),3.67,-0.31,42,5.89
+cement,1,Last year + recent growth,3.97,-0.2,42,15.13
+cement,1,LightGBM,6.47,-3.57,42,13.64
+cement,1,Ridge (lags + calendar),5.19,-2.98,42,11.9
+cement,1,SARIMA,4.19,-1.97,42,14.38
+cement,1,Same month last year,7.83,-7.44,42,13.2
+cement,3,"Average of ETS, SARIMA and growth rule",3.55,-1.0,42,4.92
+cement,3,Holt-Winters (ETS),4.06,-0.66,42,4.47
+cement,3,Last year + recent growth,4.29,-0.17,42,12.24
+cement,3,LightGBM,9.82,-4.91,42,18.89
+cement,3,Ridge (lags + calendar),4.83,-2.13,42,9.28
+cement,3,SARIMA,4.36,-2.06,42,8.09
+cement,3,Same month last year,7.83,-7.44,42,10.02
+steel,1,"Average of ETS, SARIMA and growth rule",2.49,-0.48,42,7.26
+steel,1,Holt-Winters (ETS),2.18,-0.45,42,3.19
+steel,1,Last year + recent growth,3.48,0.74,42,16.28
+steel,1,LightGBM,3.92,-3.03,42,7.54
+steel,1,Ridge (lags + calendar),4.08,-1.65,42,9.66
+steel,1,SARIMA,3.71,-1.65,42,7.9
+steel,1,Same month last year,8.16,-8.16,42,11.66
+steel,3,"Average of ETS, SARIMA and growth rule",2.64,-0.63,42,6.07
+steel,3,Holt-Winters (ETS),2.37,-0.79,42,3.47
+steel,3,Last year + recent growth,3.91,0.79,42,14.63
+steel,3,LightGBM,4.78,-3.78,42,17.71
+steel,3,Ridge (lags + calendar),3.85,-2.01,42,8.36
+steel,3,SARIMA,3.79,-1.8,42,4.53
+steel,3,Same month last year,8.16,-8.16,42,7.32

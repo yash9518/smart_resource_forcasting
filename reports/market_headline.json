@@ -1,0 +1,34 @@
+{
+  "cement_h1": {
+    "chosen_model": "Holt-Winters (ETS)",
+    "test_mape": 3.67,
+    "baseline": "Last year + recent growth",
+    "baseline_mape": 3.97,
+    "naive_same_month_mape": 7.83,
+    "error_reduction_vs_baseline_pct": 7.6
+  },
+  "cement_h3": {
+    "chosen_model": "Holt-Winters (ETS)",
+    "test_mape": 4.06,
+    "baseline": "Last year + recent growth",
+    "baseline_mape": 4.29,
+    "naive_same_month_mape": 7.83,
+    "error_reduction_vs_baseline_pct": 5.4
+  },
+  "steel_h1": {
+    "chosen_model": "Holt-Winters (ETS)",
+    "test_mape": 2.18,
+    "baseline": "Last year + recent growth",
+    "baseline_mape": 3.48,
+    "naive_same_month_mape": 8.16,
+    "error_reduction_vs_baseline_pct": 37.4
+  },
+  "steel_h3": {
+    "chosen_model": "Holt-Winters (ETS)",
+    "test_mape": 2.37,
+    "baseline": "Last year + recent growth",
+    "baseline_mape": 3.91,
+    "naive_same_month_mape": 8.16,
+    "error_reduction_vs_baseline_pct": 39.4
+  }
+}

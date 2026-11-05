@@ -1,0 +1,15 @@
+period,rule,cost,days_short,days,cost_vs_flat_rule_pct
+test,No standby,7143.0,102,102,170.0
+test,Same standby every day (P75),2400.0,19,102,-9.0
+test,Same standby every day (median),2647.0,39,102,0.0
+test,"Scaled to morning bookings (P75, newsvendor)",4501.0,10,102,70.0
+test,Scaled to morning bookings (median),2961.0,19,102,12.0
+test,"Scaled, P75, last 3 years only",3243.0,16,102,23.0
+test,"Scaled, median, last 3 years only",2443.0,25,102,-8.0
+validation,No standby,5442.0,59,59,149.0
+validation,Same standby every day (P75),1690.0,22,59,-23.0
+validation,Same standby every day (median),2182.0,30,59,0.0
+validation,"Scaled to morning bookings (P75, newsvendor)",1453.0,9,59,-33.0
+validation,Scaled to morning bookings (median),1152.0,20,59,-47.0
+validation,"Scaled, P75, last 3 years only",1414.0,9,59,-35.0
+validation,"Scaled, median, last 3 years only",1157.0,20,59,-47.0

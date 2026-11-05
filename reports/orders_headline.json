@@ -1,0 +1,36 @@
+{
+  "orders": 9300,
+  "days": 263,
+  "period": "Jan 2011 - Sep 2021",
+  "same_day_share_of_orders_pct": 37.3,
+  "same_day_share_of_volume_pct": 21.8,
+  "same_day_notice_hours_median": 2.3,
+  "same_day_notice_hours_p10": 0.6,
+  "same_day_notice_hours_p90": 5.7,
+  "order_size_m3_median_prebooked": 10.5,
+  "order_size_m3_median_same_day": 5.25,
+  "deliveries_in_peak_hour_pct": 19.5,
+  "same_day_share_by_year_pct": {
+    "2011": 44.8,
+    "2012": 44.0,
+    "2013": 46.4,
+    "2014": 44.8,
+    "2015": 41.3,
+    "2016": 42.1,
+    "2017": 43.3,
+    "2018": 40.2,
+    "2019": 24.4,
+    "2020": 25.2,
+    "2021": 19.5
+  },
+  "same_day_share_2011_2018_pct": 43.3,
+  "same_day_share_2019_2021_pct": 23.6,
+  "drift_alarm_first_date": "Mar 2019",
+  "standby": {
+    "assumed_cost_ratio_miss_to_idle": 3.0,
+    "best_rule_on_validation": "Scaled to morning bookings (median)",
+    "validation_cost_vs_flat_pct": -47.0,
+    "test_cost_vs_flat_pct_same_rule": 12.0,
+    "test_cost_vs_flat_pct_last3y_median": -8.0
+  }
+}
